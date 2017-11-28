@@ -3,9 +3,6 @@
   "description": "",
   "repository": "https://github.com/k-usk/heroku-php-7.1",
   "image": "heroku/php",
-  "addons": [
-    "papertrail"
-  ],
   "buildpacks": [
     {
       "url": "heroku/php"
