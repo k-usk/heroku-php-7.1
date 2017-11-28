@@ -1,0 +1,17 @@
+{
+  "name": "PHP 7.1 sample",
+  "description": "",
+  "repository": "https://github.com/k-usk/heroku-php-7.1",
+  "image": "heroku/php",
+  "addons": [
+    "papertrail",
+    {
+      "plan": "papertrail:choklad"
+    }
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/php"
+    }
+  ]
+}
