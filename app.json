@@ -4,10 +4,7 @@
   "repository": "https://github.com/k-usk/heroku-php-7.1",
   "image": "heroku/php",
   "addons": [
-    "papertrail",
-    {
-      "plan": "papertrail:choklad"
-    }
+    "papertrail"
   ],
   "buildpacks": [
     {
